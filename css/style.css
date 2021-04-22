@@ -1,0 +1,29 @@
+.everything{
+    width: 1200px; 
+    margin: auto; 
+    background-color: gray;
+}
+
+.container-header{
+    height: 100px;
+    padding: 5px;
+    background-color: hotpink;
+}
+
+.container-1{
+    margin-top: 15px;
+    background-color: yellowgreen;
+    height: 300px;
+}
+
+.container-2{
+    margin-top: 15px;
+    height: 500px;
+    background-color: blue;
+}
+
+footer{
+    margin-top: 10px;
+    height: 150px;
+    background-color: purple;
+}
