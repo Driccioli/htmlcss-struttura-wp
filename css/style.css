@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .everything{
     width: 1200px; 
     margin: auto; 
@@ -22,6 +28,43 @@
     background-color: blue;
 }
 
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container-2 > *{
+    background-color: cadetblue;
+}
+
+.fl-top{
+    float:left;
+    width: 1200px;
+    height: 100px;
+}
+
+.fl-left{
+    float: left;
+    margin-top:10px;
+    margin-right: 10px;
+    height: 380px;
+    width: 230px;
+}
+.fl-center{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 380px;
+    width: 700px;
+}
+.fl-right{
+    float: right;
+    margin-top: 10px;
+    height: 380px;
+    width: 230px;
+}
 footer{
     margin-top: 10px;
     height: 150px;
